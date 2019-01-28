@@ -1,0 +1,16 @@
+Package: STplm
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.11.3), RcppEigen (>= 0.3.2.2.0), compiler,
+        KernSmooth, locpol
+LinkingTo: Rcpp, RcppEigen, compiler, KernSmooth, locpol
+Title: Spatio-Temporal Partial Linear Model and Bandwidth Selection
+Version: 0.1.0
+Date: 2017-02-08
+Author: Jialuo Liu
+Maintainer: Jialuo Liu <liujl@rams.colostate.edu>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL (>= 2)
+RoxygenNote: 5.0.1.9000
+NeedsCompilation: yes
+Packaged: 2018-10-18 01:25:13 UTC; lolofter
